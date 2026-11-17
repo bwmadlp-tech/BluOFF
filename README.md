@@ -1,2 +1,70 @@
 # BluOFF
 سلاممممممم خوش اومدیننن
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BLUCRAFT | بلوکرفت</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>♛ BLU<span>CRAFT</span></h2>
+  <nav>
+    <a href="#home">خانه</a>
+    <a href="#server">سرور</a>
+    <a href="#downloads">دانلودها</a>
+    <a href="#shop">فروشگاه</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>به دنیای <span>BLUCRAFT</span> خوش آمدی!</h1>
+    <p>دنیای خودت را بساز و ماجراجویی کن.</p>
+    <a class="button" href="#server">شروع ماجراجویی</a>
+  </div>
+</section>
+
+<section id="server">
+  <h2>🎮 سرور BLUCRAFT</h2>
+  <div class="card">
+    <h3>سرور ماینکرفت</h3>
+    <p>به زودی اطلاعات اتصال سرور قرار می‌گیرد.</p>
+    <button onclick="copyIP()">کپی آی‌پی سرور</button>
+  </div>
+</section>
+
+<section id="downloads">
+  <h2>📥 دانلودها</h2>
+  <div class="card">
+    <h3>مود و پلاگین</h3>
+    <p>دانلود فایل‌های ماینکرفت</p>
+  </div>
+  <div class="card">
+    <h3>ریسورس پک</h3>
+    <p>منابع گرافیکی بازی</p>
+  </div>
+</section>
+
+<section id="shop">
+  <h2>🛒 فروشگاه</h2>
+  <div class="card">
+    <h3>فروشگاه BLUCRAFT</h3>
+    <p>محصولات و امکانات ویژه به زودی!</p>
+  </div>
+</section>
+
+<footer>
+  <h2>BLUCRAFT 💙</h2>
+  <p>ساخته شده برای عاشقان ماینکرفت</p>
+  <p>© 2026 BLUCRAFT</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
